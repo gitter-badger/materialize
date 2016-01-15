@@ -1,32 +1,67 @@
 ![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
-Materialize, a CSS Framework based on material design
 
-### Current Version : v0.92.1
+[![Join the chat at https://gitter.im/MetaiR/materializeCss-rtl](https://badges.gitter.im/MetaiR/materializeCss-rtl.svg)](https://gitter.im/MetaiR/materializeCss-rtl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-##Changelog
+[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![Dependency Status](https://david-dm.org/Dogfalo/materialize.svg)](https://david-dm.org/Dogfalo/materialize)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-- v0.92.1
-  - Bower semver fix
-  - Added new radio button style
+Materialize-rtl, a CSS Framework based on material design and materializecss framwork
 
-- v0.92.0
-  - Clicking icon in dropdown in navbar no longer closes dropdown immediately
-  - Multiple select inputs now work properly
-  - Mobile navbar no longer extends past screen width
-  - Parallax improved
-  - Modal restructured / can be opened programmatically
-  - Callbacks added to modals
-  - Added dist folder to repo
+### Current Version : v0.97.5
+
+## Sass Requirements:
+- Not Yet :(
+
+## Supported Browsers:
+Chrome 35+, Firefox 31+, Safari 7+, IE 10+
+
+## Changelog
+- v0.97.5 (Dec 21, 2015)
+  - Fixed Meteor package crash
+- v0.97.4 (Dec 20, 2015)
+  - Added Jasmine testing with Travis CI
+  - Select bugfixes
+  - Grid Offset bugfix
+  - Dropdown overflow bugfix
+  - Range slider error bugfix
+- v0.97.3 (Nov 15, 2015)
+  - Meteor font issues fixed
+  - Select rendering issue fixed
+  - Added Push and Pull to grid
+  - Dynamic accordion appends fixed
+- v0.97.2 (Nov 8, 2015)
+  - Image support inside select
+  - Optgroup supported in select
+  - Multiple select added
+  - Card styling fixes
+  - Breadcrumbs added
+  - Scrollable tabs
+  - Tooltips and dropdowns position themselves more intelligently inside the window
+  - FAB menu is click-toggleable
+  - Horizontal FAB support added
+- v0.97.1 (Sep 13, 2015)
+  - Added new range slider with uses noUiSlider to provide powerful options
+  - Added CSS for Chips
+  - Toasts support adding of html elements
+  - Fixed select destroy/creation bug
+  - Bugfixes for dropdown, badges, collections, scrollfire
+  - Added default preloader color variable
+  - File input now supports multiple files and dynamically loaded elements
+- v0.97.0 (June 21, 2015)
+  - **Documentation changed to use Official Google Icon web font**
+  - **Input errors added**
+  - Flicker on Firefox on dropdowns fixed
+  - Pagination made more responsive
+  - Modal now prevents scrolling
+  - Modal animation added
+  - Support for multiple modals added
+  - Programmatic control of FAB to open/close added
+  - Programmatic control of slider to play/pause added
+  - Plus many more bug fixes
 
 
-- v0.91
-  - bug fixes to forms
-  - added waves color classes
-  - toast thickened to look better on mobile
-  - many other bug fixes
+## Contributing
+[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
 
-
-- v0.9
-  - Touch interactions added
-  - tons more...
+## Testing
+We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
